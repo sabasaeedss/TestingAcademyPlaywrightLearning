@@ -14,6 +14,16 @@ TestingAcademyPlaywrightLearning/
 │   ├── 04_IdentifierCases.js   # Naming conventions (camelCase, PascalCase, etc.)
 │   ├── 05_comments.js          # Single-line and multi-line comments
 │   └── keyboard_Shortcuts.md   # VS Code, Windows, Browser, Git shortcuts
+├── Ch_04_Javascript/           # Variables, Functions, Scope & Hoisting
+│   ├── 06_let_var_const.js     # var, let, and const comparison
+│   ├── 07_functions.js         # Function declarations and expressions
+│   ├── 08_variable_explained.js# Variable behavior deep dive
+│   ├── 09_let.js               # let keyword and block scope
+│   ├── 10_const.js             # const keyword and immutability
+│   ├── 11_var_functionscope.js # var function-scoped behavior
+│   ├── 12_let_scope.js         # let block-scoped behavior
+│   ├── 13_hoisting.js          # Variable hoisting explained
+│   └── 14_hoisting_fn.js       # Function hoisting
 └── README.md                   # This file
 ```
 
@@ -34,6 +44,12 @@ Introduction to JavaScript runtime environment and basic console output.
   - Hungarian notation
 - **Comments**: Single-line and multi-line comments
 - **Keyboard Shortcuts**: Reference guide for VS Code, Windows, Browser, Git, and Playwright
+
+### Chapter 4: Variables, Functions, Scope & Hoisting
+- **`var`, `let`, `const`**: Comparison of variable declaration keywords
+- **Functions**: Function declarations and expressions
+- **Variable Scope**: Function scope (`var`) vs block scope (`let`/`const`)
+- **Hoisting**: How JavaScript hoists variable and function declarations
 
 ## How to Run
 
