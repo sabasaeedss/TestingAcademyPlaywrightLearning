@@ -23,7 +23,20 @@ TestingAcademyPlaywrightLearning/
 │   ├── 11_var_functionscope.js # var function-scoped behavior
 │   ├── 12_let_scope.js         # let block-scoped behavior
 │   ├── 13_hoisting.js          # Variable hoisting explained
-│   └── 14_hoisting_fn.js       # Function hoisting
+│   ├── 14_hoisting_fn.js       # Function hoisting
+│   ├── 15_hoisting_let.js      # let hoisting behavior
+│   ├── 16_hoisting_let_block.js# let hoisting in block scope
+│   ├── 17_let_const_tdz.js     # Temporal Dead Zone for let/const
+│   └── assignment.js           # Chapter 4 assignment
+├── Ch_05_Literals/             # JavaScript Literals
+│   ├── 18_literal.js           # Introduction to literals
+│   ├── 19_null_undefined.js    # null vs undefined difference
+│   ├── 20_null.js              # null usage examples
+│   ├── 21_literals_all.js      # Overview of all literals
+│   ├── 22_literals_number.js   # Number literals (decimal, binary, hex, etc.)
+│   ├── 23_string.js            # String literals
+│   ├── 24_template_literals.js # Template literals with backticks
+│   └── 25_backtick_single_doublequote.js  # Quote types comparison
 └── README.md                   # This file
 ```
 
@@ -50,6 +63,13 @@ Introduction to JavaScript runtime environment and basic console output.
 - **Functions**: Function declarations and expressions
 - **Variable Scope**: Function scope (`var`) vs block scope (`let`/`const`)
 - **Hoisting**: How JavaScript hoists variable and function declarations
+
+### Chapter 5: Literals
+- **Introduction to Literals**: What literals are and their types
+- **null vs undefined**: Differences, behaviors, and use cases
+- **Number Literals**: Decimal, floating-point, binary, octal, hexadecimal, BigInt, exponential notation
+- **String Literals**: Single quote, double quote, and template literals
+- **Quote Comparison**: Differences between `'`, `"`, and `` ` ``
 
 ## How to Run
 
