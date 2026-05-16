@@ -37,6 +37,19 @@ TestingAcademyPlaywrightLearning/
 │   ├── 23_string.js            # String literals
 │   ├── 24_template_literals.js # Template literals with backticks
 │   └── 25_backtick_single_doublequote.js  # Quote types comparison
+├── Ch_06_double_triple_equals/ # Operators, Comparisons & Logical
+│   ├── 26_Operator.js          # Operators introduction
+│   ├── 27_arithmetic.js        # Arithmetic operators
+│   ├── 28_modulus.js           # Modulus operator
+│   ├── 29_expo.js              # Exponential operator
+│   ├── 30_IQ.js                # Interview questions
+│   ├── 31_comparison.js         # Comparison operators
+│   ├── 32_comparison_strict_vs_loose.js  # Strict vs loose equality
+│   ├── 33_IQ_Strict_loose.js   # Strict vs loose interview questions
+│   ├── 34_confusing_strict_loose.js      # Confusing == vs === examples
+│   ├── 35_logical.js           # Logical operators
+│   ├── 36_string_Concatenation.js        # String concatenation
+│   └── 37_Ternary.js           # Ternary operator
 └── README.md                   # This file
 ```
 
@@ -70,6 +83,14 @@ Introduction to JavaScript runtime environment and basic console output.
 - **Number Literals**: Decimal, floating-point, binary, octal, hexadecimal, BigInt, exponential notation
 - **String Literals**: Single quote, double quote, and template literals
 - **Quote Comparison**: Differences between `'`, `"`, and `` ` ``
+
+### Chapter 6: Operators, Comparisons & Logical
+- **Arithmetic Operators**: Addition, subtraction, multiplication, division, modulus, exponentiation
+- **Comparison Operators**: Loose equality (`==`) vs strict equality (`===`)
+- **Confusing Cases**: Examples of unexpected type coercion with `==`
+- **Logical Operators**: AND, OR, NOT
+- **String Concatenation**: Combining strings with `+`
+- **Ternary Operator**: Conditional expressions with `? :`
 
 ## How to Run
 
