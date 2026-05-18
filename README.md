@@ -49,7 +49,16 @@ TestingAcademyPlaywrightLearning/
 │   ├── 34_confusing_strict_loose.js      # Confusing == vs === examples
 │   ├── 35_logical.js           # Logical operators
 │   ├── 36_string_Concatenation.js        # String concatenation
-│   └── 37_Ternary.js           # Ternary operator
+│   ├── 37_Ternary.js           # Ternary operator
+│   ├── 38_type_op.js           # typeof operator
+│   ├── 39_null_op.js           # null comparison and nullish coalescing (??)
+│   ├── 40_incr_decr_op.js      # Pre and post increment/decrement operators
+│   ├── 45_post_incr.js         # Post-increment deep dive
+│   ├── 46_IQ_incr_decr.js      # Increment/decrement interview questions
+│   ├── 47_IQ_Advance.js        # Advanced increment/decrement IQ
+│   ├── 18may_assign1.js        # Assignment: max of two numbers (ternary)
+│   ├── 18may.assign2.js        # Assignment: max of three numbers (ternary)
+│   └── 18may.assign3.js        # Assignment: increment/decrement expression
 └── README.md                   # This file
 ```
 
@@ -91,6 +100,10 @@ Introduction to JavaScript runtime environment and basic console output.
 - **Logical Operators**: AND, OR, NOT
 - **String Concatenation**: Combining strings with `+`
 - **Ternary Operator**: Conditional expressions with `? :`
+- **typeof Operator**: Checking variable types
+- **nullish Coalescing Operator (`??`)**: Handling `null` and `undefined` defaults
+- **Increment & Decrement Operators**: Pre (`++a`) and post (`a++`) increment/decrement
+- **Assignments**: Practical exercises on ternary operators and complex increment/decrement expressions
 
 ## How to Run
 
