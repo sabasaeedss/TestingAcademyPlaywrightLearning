@@ -84,7 +84,12 @@ TestingAcademyPlaywrightLearning/
 ├── Ch09_user_input/            # User Input Handling
 │   ├── 68_user_input.js        # Basic user input with prompt
 │   ├── 69_userinput_2.js       # Additional user input examples
-│   └── 70_prompt_sync.js       # Synchronous prompt handling
+│   ├── 70_prompt_sync.js       # Synchronous prompt handling
+│   ├── 71_task1.js             # Task: HTTP Status Code Categorizer
+│   ├── 72_task2.js             # Task: Test Result Verdict
+│   ├── 73_task3.js             # Task: Bug Severity Classifier
+│   ├── 74_task4.js             # Task: Build Health Reporter
+│   └── 75_task5.js             # Task: Login Lockout After Failed Attempts
 └── README.md                   # This file
 ```
 
@@ -151,6 +156,12 @@ Introduction to JavaScript runtime environment and basic console output.
 - **Basic User Input**: Using `prompt()` for input
 - **Input Conversion**: Converting string input to numbers
 - **Synchronous Prompt**: Handling user input synchronously
+- **Tasks & Practice**:
+  - HTTP Status Code Categorizer (conditional branching)
+  - Test Result Verdict (comparing expected vs actual results)
+  - Bug Severity Classifier (impact score classification)
+  - Build Health Reporter (CI build health based on pass percentage)
+  - Login Lockout After Failed Attempts (attempt tracking and lockout)
 
 ## How to Run
 
