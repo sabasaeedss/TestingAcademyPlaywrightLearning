@@ -1,0 +1,25 @@
+/*
+Problem: Take a year and check if it's a leap year.
+Rules:
+Divisible by 4 AND not divisible by 100 → Leap year
+OR divisible by 400 → Leap year
+Else → Not a leap year*/
+
+let year = 2020;
+
+if (year % 4 === 0 && year % 100 !== 0) {
+    console.log(year + " is a leap year.");
+}
+else if (year % 400 === 0) {
+    console.log(year + " is a leap year.");
+}
+else {
+    console.log(year + " is not a leap year.");
+}
+
+//second way to write the same code
+if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+    console.log(year + " is a leap year.");
+} else {
+    console.log(year + " is not a leap year.");
+}

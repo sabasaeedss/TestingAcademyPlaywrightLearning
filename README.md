@@ -59,6 +59,32 @@ TestingAcademyPlaywrightLearning/
 │   ├── 18may_assign1.js        # Assignment: max of two numbers (ternary)
 │   ├── 18may.assign2.js        # Assignment: max of three numbers (ternary)
 │   └── 18may.assign3.js        # Assignment: increment/decrement expression
+├── Ch_07_If_else/              # Conditional Statements (If-Else)
+│   ├── 48_if_else.js           # Basic if-else statement
+│   ├── 49_if_elseif.js         # If-else if ladder
+│   ├── 50_real_if_else.js      # Real-world if-else examples
+│   ├── 51_API_ifelse.js        # API response handling with if-else
+│   ├── 52_IQ_if_else.js        # If-else interview questions
+│   ├── 53_real_ifelse.js       # More real-world if-else scenarios
+│   ├── 54_IQ_ifelse.js         # Additional if-else IQ questions
+│   ├── 55_IE.js                # If-else edge cases
+│   ├── 56_Question1.js         # Practice question 1
+│   ├── 57_Question2.js         # Practice question 2
+│   └── 58_Question3.js         # Practice question 3
+├── CH_08_Switch/               # Switch Statements
+│   ├── 59_switch.js            # Basic switch statement
+│   ├── 60_nobreak.js           # Switch without break
+│   ├── 61_default.js           # Switch default case
+│   ├── 62_real_Example.js      # Real-world switch example
+│   ├── 63_switch_group.js      # Grouped switch cases
+│   ├── 64_IQ_switch.js         # Switch interview questions
+│   ├── 65_IQ2.js               # Switch IQ question 2
+│   ├── 66_IQ3.js               # Switch IQ question 3
+│   └── 67_IQ4.js               # Switch IQ question 4
+├── Ch09_user_input/            # User Input Handling
+│   ├── 68_user_input.js        # Basic user input with prompt
+│   ├── 69_userinput_2.js       # Additional user input examples
+│   └── 70_prompt_sync.js       # Synchronous prompt handling
 └── README.md                   # This file
 ```
 
@@ -104,6 +130,27 @@ Introduction to JavaScript runtime environment and basic console output.
 - **nullish Coalescing Operator (`??`)**: Handling `null` and `undefined` defaults
 - **Increment & Decrement Operators**: Pre (`++a`) and post (`a++`) increment/decrement
 - **Assignments**: Practical exercises on ternary operators and complex increment/decrement expressions
+
+### Chapter 7: Conditional Statements (If-Else)
+- **Basic If-Else**: Simple conditional branching
+- **If-Else If Ladder**: Multiple condition checks
+- **Real-World Examples**: Practical scenarios using if-else
+- **API Response Handling**: Using conditionals with API data
+- **Interview Questions**: Common if-else IQ and edge cases
+- **Practice Questions**: Hands-on exercises
+
+### Chapter 8: Switch Statements
+- **Basic Switch**: Switch-case structure and syntax
+- **No Break Behavior**: Fall-through behavior in switch
+- **Default Case**: Handling unmatched cases
+- **Real-World Examples**: Practical switch usage
+- **Grouped Cases**: Combining multiple cases
+- **Interview Questions**: Switch-related IQ problems
+
+### Chapter 9: User Input Handling
+- **Basic User Input**: Using `prompt()` for input
+- **Input Conversion**: Converting string input to numbers
+- **Synchronous Prompt**: Handling user input synchronously
 
 ## How to Run
 
