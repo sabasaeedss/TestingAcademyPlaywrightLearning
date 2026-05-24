@@ -90,7 +90,21 @@ TestingAcademyPlaywrightLearning/
 │   ├── 73_task3.js             # Task: Bug Severity Classifier
 │   ├── 74_task4.js             # Task: Build Health Reporter
 │   └── 75_task5.js             # Task: Login Lockout After Failed Attempts
-└── README.md                   # This file
+├── Ch10_loops/                  # Loops in JavaScript
+│   ├── 76_forloop.js            # Basic for loop
+│   ├── 77_forloop2.js           # Additional for loop examples
+│   ├── 78_IQ.js                 # Loop interview questions
+│   ├── 79_for_of_in_each.js    # for...of and for...in basics
+│   ├── 80_while loop.js         # while loop
+│   ├── 81_do_while.js           # do...while loop
+│   ├── 82_do_while2.js          # Additional do...while examples
+│   ├── 83_IQ.js                 # Loop IQ question
+│   ├── 84_IQ.js                 # Loop IQ question
+│   ├── 85_IQ.js                 # Loop IQ question
+│   ├── 86_IQ.js                 # Loop IQ question
+│   ├── 87_Task_TriangleClassifier.js  # Task: Triangle Classifier
+│   └── 88_Task_FizzBuz.js       # Task: FizzBuzz
+└── README.md                    # This file
 ```
 
 ## Chapters Overview
@@ -162,6 +176,16 @@ Introduction to JavaScript runtime environment and basic console output.
   - Bug Severity Classifier (impact score classification)
   - Build Health Reporter (CI build health based on pass percentage)
   - Login Lockout After Failed Attempts (attempt tracking and lockout)
+
+### Chapter 10: Loops
+- **For Loop**: Basic iteration with initialization, condition, and increment
+- **While Loop**: Condition-based iteration
+- **Do...While Loop**: Post-condition iteration (executes at least once)
+- **for...of / for...in**: Iterating over iterable objects and object properties
+- **Interview Questions**: Common loop-related IQ and edge cases
+- **Tasks & Practice**:
+  - Triangle Classifier (using conditionals with loops)
+  - FizzBuzz (classic loop-based problem)
 
 ## How to Run
 
