@@ -120,7 +120,20 @@ TestingAcademyPlaywrightLearning/
 │   ├── 110_real_example.js      # Real-world array example with browser list
 │   ├── 111_searching.js         # Array searching methods (indexOf, find, includes)
 │   ├── 112_iterate.js           # Array iteration methods (for, forEach, for...of, entries)
-│   └── 113_transform.js         # Array transformation methods (map, filter, reduce, flat)
+│   ├── 113_transform.js         # Array transformation methods (map, filter, reduce, flat)
+│   ├── 114_sorting.js           # Array sorting methods
+│   ├── 115_slicing.js           # Array slicing with slice()
+│   ├── 116_concat_Array.js      # Array concatenation with concat()
+│   └── 117_array_checking.js    # Array checking methods (Array.isArray, instanceof)
+├── Ch12_Functions/             # Functions in JavaScript
+│   ├── 118_functions.js         # Functions introduction
+│   ├── 119_type1_basic_function.js # Basic function (no parameter, no return)
+│   ├── 120_type2_function.js    # Function with parameters
+│   ├── 121_type3_function.js   # Function with return value
+│   ├── 122_type4_function.js   # Function with parameters and return
+│   ├── 123_template_literal.js  # Template literals in functions
+│   ├── 124_fn_Expression.js    # Function expressions
+│   └── 125_arrow_fn.js         # Arrow functions
 └── README.md                    # This file
 ```
 
@@ -216,7 +229,22 @@ Introduction to JavaScript runtime environment and basic console output.
 - **Searching Arrays**: `indexOf()`, `lastIndexOf()`, `includes()`, `find()`, `findIndex()`, `findLast()`, `findLastIndex()`
 - **Iteration Methods**: `for` loop, `for...of`, `forEach()`, `for...in`, and `.entries()`
 - **Transformation Methods**: `map()`, `filter()`, `reduce()`, and `flat()`
+- **Sorting Arrays**: `sort()` with default and custom comparator functions
+- **Slicing Arrays**: `slice()` for extracting portions without mutating original
+- **Concatenating Arrays**: `concat()` for merging arrays
+- **Array Checking**: `Array.isArray()` and `instanceof` for type verification
 - **Real-World Example**: Managing a list of browser names
+
+### Chapter 12: Functions
+- **Function Basics**: Introduction to function declarations and calls
+- **Function Types**:
+  - Type 1: No parameters, no return value
+  - Type 2: With parameters, no return value
+  - Type 3: No parameters, with return value
+  - Type 4: With parameters and return value
+- **Template Literals**: Using backtick strings inside functions
+- **Function Expressions**: Storing functions in variables
+- **Arrow Functions**: Concise function syntax with `=>`
 
 ## How to Run
 
