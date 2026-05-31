@@ -103,7 +103,24 @@ TestingAcademyPlaywrightLearning/
 │   ├── 85_IQ.js                 # Loop IQ question
 │   ├── 86_IQ.js                 # Loop IQ question
 │   ├── 87_Task_TriangleClassifier.js  # Task: Triangle Classifier
-│   └── 88_Task_FizzBuz.js       # Task: FizzBuzz
+│   ├── 88_Task_FizzBuz.js       # Task: FizzBuzz
+│   ├── 98_test_CodingQues8.js   # Coding question 8
+│   ├── 99_test_CodingQuest10.js # Coding question 10
+│   ├── 100_test_CodingQuest11.js# Coding question 11
+│   ├── 101_test_CodingQuest12.js# Coding question 12
+│   ├── 102_test_CodingQuest13.js# Coding question 13
+│   ├── 103_test_CodingQuest14.js# Coding question 14
+│   └── 104_test_CodingQuest15.js# Coding question 15
+├── Ch11_Arrays/                 # Arrays in JavaScript
+│   ├── 105_arrays.js            # Arrays introduction and basic creation
+│   ├── 106_arrays.js            # Array constructors and creation methods
+│   ├── 107_access_array.js      # Accessing and modifying array elements
+│   ├── 108_array_adding_remove.js # Adding and removing elements (push, pop, shift, unshift)
+│   ├── 109_adding_removing2.js  # Splice for adding, removing, and replacing elements
+│   ├── 110_real_example.js      # Real-world array example with browser list
+│   ├── 111_searching.js         # Array searching methods (indexOf, find, includes)
+│   ├── 112_iterate.js           # Array iteration methods (for, forEach, for...of, entries)
+│   └── 113_transform.js         # Array transformation methods (map, filter, reduce, flat)
 └── README.md                    # This file
 ```
 
@@ -186,6 +203,20 @@ Introduction to JavaScript runtime environment and basic console output.
 - **Tasks & Practice**:
   - Triangle Classifier (using conditionals with loops)
   - FizzBuzz (classic loop-based problem)
+- **Coding Questions (98-104)**: Additional loop practice exercises
+
+### Chapter 11: Arrays
+- **Creating Arrays**: Array literals, `new Array()`, `Array.of()`, and `Array.from()`
+- **Accessing Elements**: Using index and `.at()` method (including negative indexing)
+- **Modifying Arrays**: Updating elements by index
+- **Adding & Removing Elements**:
+  - `push()` / `pop()` — add/remove from end
+  - `shift()` / `unshift()` — add/remove from beginning
+  - `splice()` — add, remove, or replace elements at any position
+- **Searching Arrays**: `indexOf()`, `lastIndexOf()`, `includes()`, `find()`, `findIndex()`, `findLast()`, `findLastIndex()`
+- **Iteration Methods**: `for` loop, `for...of`, `forEach()`, `for...in`, and `.entries()`
+- **Transformation Methods**: `map()`, `filter()`, `reduce()`, and `flat()`
+- **Real-World Example**: Managing a list of browser names
 
 ## How to Run
 
