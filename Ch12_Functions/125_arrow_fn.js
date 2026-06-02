@@ -18,3 +18,14 @@ console.log(doubleIt(2));
 const printIt = name => console.log(name);
 //console.log(printIt("saba"));
 printIt("saaa");
+
+function sayHi() {
+    console.log("Hi");
+}
+
+const sayHi = () => console.log("hi");
+
+const multipleLines = name => {
+    const message = "Hi" + name;
+    return message;
+}

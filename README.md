@@ -133,7 +133,21 @@ TestingAcademyPlaywrightLearning/
 │   ├── 122_type4_function.js   # Function with parameters and return
 │   ├── 123_template_literal.js  # Template literals in functions
 │   ├── 124_fn_Expression.js    # Function expressions
-│   └── 125_arrow_fn.js         # Arrow functions
+│   ├── 125_arrow_fn.js         # Arrow functions
+│   ├── 126_Arrow_fn_Real_Ex.js # Real-world arrow function examples
+│   ├── 127_iife.js             # Immediately Invoked Function Expressions (IIFE)
+│   ├── 128_default_param.js    # Default parameters in functions
+│   ├── 129_IQ.js               # Function interview questions
+│   ├── 130_rest_params.js      # Rest parameters (...args)
+│   ├── 131_IQ.js               # Rest parameters interview questions
+│   ├── 132_spread_IQ.js        # Spread operator interview questions
+│   ├── 133_scope.js            # Scope in JavaScript (global, function, block)
+│   ├── 134_IQ.js               # Scope interview questions
+│   ├── 135_closure.js          # Closures introduction
+│   ├── 136_closure2.js         # Closures practical examples
+│   ├── 137_closure3.js         # Advanced closures
+│   ├── 138_higher_order_fn.js  # Higher-order functions
+│   └── 139_pure_fn.js          # Pure functions
 └── README.md                    # This file
 ```
 
@@ -245,6 +259,16 @@ Introduction to JavaScript runtime environment and basic console output.
 - **Template Literals**: Using backtick strings inside functions
 - **Function Expressions**: Storing functions in variables
 - **Arrow Functions**: Concise function syntax with `=>`
+- **Real-World Arrow Functions**: Practical arrow function examples
+- **IIFE**: Immediately Invoked Function Expressions
+- **Default Parameters**: Setting default values for function parameters
+- **Rest Parameters**: Collecting remaining arguments with `...args`
+- **Spread Operator**: Expanding arrays/iterables with `...`
+- **Scope**: Global scope, function scope, and block scope
+- **Closures**: Functions retaining access to their lexical scope
+- **Higher-Order Functions**: Functions that take or return other functions
+- **Pure Functions**: Functions with no side effects and deterministic output
+- **Interview Questions**: Function-related IQ and edge cases (129, 131, 132, 134)
 
 ## How to Run
 
