@@ -147,7 +147,16 @@ TestingAcademyPlaywrightLearning/
 │   ├── 136_closure2.js         # Closures practical examples
 │   ├── 137_closure3.js         # Advanced closures
 │   ├── 138_higher_order_fn.js  # Higher-order functions
-│   └── 139_pure_fn.js          # Pure functions
+│   ├── 139_pure_fn.js          # Pure functions
+├── Ch13_Strings/                # Strings in JavaScript
+│   ├── 140_strings.js           # String creation (single, double, template literals, multiline)
+│   ├── 141_string_properties.js # String properties (length, index access, charAt, charCodeAt)
+│   ├── 142_search_check.js      # String searching (includes, startsWith, endsWith, indexOf)
+│   ├── 143_substring.js         # Substring methods (slice, substring)
+│   ├── 144_transform.js         # String transformation (toUpperCase, trim, replace, replaceAll)
+│   ├── 145_String_conversion.js # String and number conversion (toString, parseInt, parseFloat)
+│   ├── 146_task_String_reverse.js # Task: Palindrome checker
+│   └── 147_task_Anagrams.js     # Task: Anagram checker
 └── README.md                    # This file
 ```
 
@@ -269,6 +278,17 @@ Introduction to JavaScript runtime environment and basic console output.
 - **Higher-Order Functions**: Functions that take or return other functions
 - **Pure Functions**: Functions with no side effects and deterministic output
 - **Interview Questions**: Function-related IQ and edge cases (129, 131, 132, 134)
+
+### Chapter 13: Strings
+- **String Creation**: Single quotes, double quotes, template literals, and multiline strings
+- **String Properties**: `length`, index access (`[]`), `.at()`, `.charAt()`, `.charCodeAt()`
+- **Searching & Checking**: `.includes()`, `.startsWith()`, `.endsWith()`, `.indexOf()`, `.lastIndexOf()`
+- **Substring Methods**: `.slice()` and `.substring()` for extracting parts of strings
+- **Transformation**: `.toUpperCase()`, `.toLowerCase()`, `.trim()`, `.replace()`, `.replaceAll()`
+- **Type Conversion**: `.toString()`, `Number()`, `parseInt()`, `parseFloat()`
+- **Tasks & Practice**:
+  - Palindrome Checker (reverse string and compare)
+  - Anagram Checker (sort and compare character arrays)
 
 ## How to Run
 
