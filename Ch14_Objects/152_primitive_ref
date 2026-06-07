@@ -1,0 +1,11 @@
+let a = 10;
+let b = a; //copy by value in primitive variable
+b = 44;
+console.log(a);
+console.log(b);
+
+//objects - copy by reference
+let obj1 = { val: 10 };
+let obj2 = obj1;
+obj2.val = 66;
+console.log(obj1.val);

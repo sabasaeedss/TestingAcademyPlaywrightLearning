@@ -156,7 +156,22 @@ TestingAcademyPlaywrightLearning/
 │   ├── 144_transform.js         # String transformation (toUpperCase, trim, replace, replaceAll)
 │   ├── 145_String_conversion.js # String and number conversion (toString, parseInt, parseFloat)
 │   ├── 146_task_String_reverse.js # Task: Palindrome checker
-│   └── 147_task_Anagrams.js     # Task: Anagram checker
+│   ├── 147_task_Anagrams.js     # Task: Anagram checker
+├── Ch14_Objects/                 # Objects in JavaScript
+│   ├── 148_objects.js            # Object literals and basic syntax
+│   ├── 149_objects2.js           # Property access (dot vs bracket), reference copying
+│   ├── 150_object_creation.js    # Object comparison by reference
+│   ├── 151_objects_real.js       # Real-world config object (add/delete properties)
+│   ├── 152_primitive_ref         # Primitive copy by value vs object copy by reference
+│   ├── 153_object_Examples.js    # JSON-style vs JS-style object syntax
+│   ├── 154_IQ.js                 # Dynamic property access, property descriptors
+│   ├── 155_obj_with_fn.js        # Objects with methods
+│   ├── 156_obj_deconstruct.js    # Object destructuring (basic, rename, defaults, nested)
+│   ├── 157_spread.js             # Object spread operator for copying
+│   ├── 158_obj_get_Set_method.js # Getters and setters
+│   ├── 159_obj_IQ.js             # Object.keys, values, entries, for...in iteration
+│   ├── 160_obj_real.js           # Real-world object examples
+│   └── 161_let_vs_const_obj.js   # Best practices: using const for objects
 └── README.md                    # This file
 ```
 
@@ -289,6 +304,20 @@ Introduction to JavaScript runtime environment and basic console output.
 - **Tasks & Practice**:
   - Palindrome Checker (reverse string and compare)
   - Anagram Checker (sort and compare character arrays)
+
+### Chapter 14: Objects
+- **Object Basics**: Creating objects with literals and accessing properties (dot vs bracket notation)
+- **Reference Behavior**: Objects are copied by reference; comparison checks reference equality
+- **Property Management**: Adding, modifying, and deleting properties dynamically
+- **Primitive vs Reference**: Understanding copy-by-value for primitives vs copy-by-reference for objects
+- **JSON vs JS Syntax**: JSON requires quoted keys; JS objects allow unquoted keys
+- **Dynamic Property Access**: Using bracket notation with variables for dynamic keys
+- **Object Methods**: Defining functions as object properties
+- **Destructuring**: Extracting properties with destructuring, renaming, default values, and nested destructuring
+- **Spread Operator**: Copying and merging objects with `...`
+- **Getters & Setters**: Using `get` and `set` for computed properties
+- **Object Iteration**: `Object.keys()`, `Object.values()`, `Object.entries()`, and `for...in` loops
+- **Interview Questions**: Object property access, property descriptors, and iteration patterns
 
 ## How to Run
 
