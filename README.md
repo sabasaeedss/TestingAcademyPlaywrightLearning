@@ -172,6 +172,14 @@ TestingAcademyPlaywrightLearning/
 │   ├── 159_obj_IQ.js             # Object.keys, values, entries, for...in iteration
 │   ├── 160_obj_real.js           # Real-world object examples
 │   └── 161_let_vs_const_obj.js   # Best practices: using const for objects
+├── Ch15_2D_array/               # 2D Arrays & Star Patterns
+│   ├── 162_2D_Array.js           # Creating and iterating over 2D arrays
+│   ├── 163_IQ.js                 # 2D array dimensions and access
+│   ├── 164_Real.js               # Test-case data as 2D array
+│   ├── 165_2d_array_fn.js        # Row-wise sums with map/reduce
+│   ├── 166_IQ_right_pattern.js   # Right-angled triangle star pattern
+│   ├── 167_Task_reverse_Py.js    # Inverted/descending star pyramid
+│   └── 168_task2_py.js           # Centered pyramid star pattern
 └── README.md                    # This file
 ```
 
@@ -318,6 +326,15 @@ Introduction to JavaScript runtime environment and basic console output.
 - **Getters & Setters**: Using `get` and `set` for computed properties
 - **Object Iteration**: `Object.keys()`, `Object.values()`, `Object.entries()`, and `for...in` loops
 - **Interview Questions**: Object property access, property descriptors, and iteration patterns
+
+### Chapter 15: 2D Arrays & Star Patterns
+- **2D Arrays**: Creating and iterating over 2D arrays with nested loops
+- **Real-World Example**: Modeling test-case data as a 2D array with `for...of` and `forEach`
+- **Functional Programming**: Row-wise sums using `map` and `reduce`, scanning for failure strings
+- **Star Patterns**:
+  - Right-angled triangle (ascending stars)
+  - Inverted/descending pyramid
+  - Centered pyramid using 2D array grid
 
 ## How to Run
 
