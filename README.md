@@ -179,7 +179,18 @@ TestingAcademyPlaywrightLearning/
 │   ├── 165_2d_array_fn.js        # Row-wise sums with map/reduce
 │   ├── 166_IQ_right_pattern.js   # Right-angled triangle star pattern
 │   ├── 167_Task_reverse_Py.js    # Inverted/descending star pyramid
-│   └── 168_task2_py.js           # Centered pyramid star pattern
+│   ├── 168_task2_py.js           # Centered pyramid star pattern
+├── Ch16_Callbacks/               # Callbacks in JavaScript
+│   ├── 160_CB_Hell.js            # Callback hell (QA browser login flow)
+│   ├── 169_callback.js           # Basic callbacks (function as argument, arrow)
+│   ├── 170_callback2.js          # Additional callback examples
+│   ├── 171_callback3.js          # More callback examples
+│   ├── 172_PW_CB.js              # Playwright callback example
+│   ├── 173_js_Callback.js        # JavaScript callback patterns
+│   ├── 174_sync.js               # Synchronous callback (forEach test results)
+│   ├── 175_async.js              # Asynchronous callback (setTimeout API)
+│   ├── 176_CB_parameter.js       # Callback with parameters
+│   └── 177_cb_return.js          # Callback with return values
 └── README.md                    # This file
 ```
 
@@ -335,6 +346,14 @@ Introduction to JavaScript runtime environment and basic console output.
   - Right-angled triangle (ascending stars)
   - Inverted/descending pyramid
   - Centered pyramid using 2D array grid
+
+### Chapter 16: Callbacks
+- **Basic Callbacks**: Passing functions as arguments using regular functions and arrow functions
+- **Synchronous Callbacks**: Using `forEach` with callback for test result iteration
+- **Asynchronous Callbacks**: Using `setTimeout` to simulate async API responses
+- **Callback with Parameters**: Passing data to callback functions
+- **Callback Return Values**: Functions that return callbacks
+- **Callback Hell**: Nested callbacks simulating a browser login flow (open browser → login page → enter credentials → click login)
 
 ## How to Run
 
