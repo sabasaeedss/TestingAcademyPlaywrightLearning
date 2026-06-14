@@ -191,6 +191,14 @@ TestingAcademyPlaywrightLearning/
 │   ├── 175_async.js              # Asynchronous callback (setTimeout API)
 │   ├── 176_CB_parameter.js       # Callback with parameters
 │   └── 177_cb_return.js          # Callback with return values
+├── Ch17_Promises/               # Promises in JavaScript
+│   ├── 178_promises.js           # Basic promise (resolve/reject)
+│   ├── 179_promise_real_api.js   # Promise resolving with API response
+│   ├── 180_promise_real_part2.js # Promise rejection with catch handler
+│   ├── 181_finally.js            # Promise finally block for cleanup
+│   ├── 182_call_pyramid_problem.js # Promise chaining (browser login flow)
+│   ├── 183_promise.all.js        # Promise.all, Promise.allSettled
+│   └── 184_Promise_IQ.js         # Promise interview questions & patterns
 └── README.md                    # This file
 ```
 
@@ -354,6 +362,14 @@ Introduction to JavaScript runtime environment and basic console output.
 - **Callback with Parameters**: Passing data to callback functions
 - **Callback Return Values**: Functions that return callbacks
 - **Callback Hell**: Nested callbacks simulating a browser login flow (open browser → login page → enter credentials → click login)
+
+### Chapter 17: Promises
+- **Basic Promises**: Creating promises with `resolve` and `reject` callbacks
+- **API Simulation**: Promises resolving with API response data and handling rejections
+- **Finally Block**: Cleanup operations using `.finally()` regardless of promise outcome
+- **Promise Chaining**: Sequential async operations replacing callback hell with `.then()` chains
+- **Promise.all & Promise.allSettled**: Running multiple promises in parallel with all-or-nothing and settled results
+- **Interview Questions**: Common promise patterns including chaining, error handling, and `Promise.all`/`allSettled` with test case examples
 
 ## How to Run
 
