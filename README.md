@@ -199,6 +199,20 @@ TestingAcademyPlaywrightLearning/
 │   ├── 182_call_pyramid_problem.js # Promise chaining (browser login flow)
 │   ├── 183_promise.all.js        # Promise.all, Promise.allSettled
 │   └── 184_Promise_IQ.js         # Promise interview questions & patterns
+├── Ch18_Async_Await/            # Async/Await in JavaScript
+│   ├── 185_async.js             # Basic async function
+│   ├── 186_async2.js            # Additional async examples
+│   ├── 187_pyramid_of_doom.js   # Callback pyramid of doom
+│   ├── 188_async_example.js     # Async examples
+│   ├── 189_async_Await_seq.js   # Sequential async/await
+│   ├── 190_async_await_parallel.js # Parallel async/await
+│   ├── 191_IQ.js                # Async/await interview questions
+│   └── 192_advance_concept.js   # Advanced async concepts
+├── Ch19_playwright_basics/      # Playwright Testing Basics
+│   ├── .github/workflows/playwright.yml # GitHub Actions CI workflow
+│   ├── tests/example.spec.ts    # Example Playwright test
+│   ├── playwright.config.ts     # Playwright configuration
+│   └── package.json             # Project dependencies
 └── README.md                    # This file
 ```
 
@@ -371,6 +385,20 @@ Introduction to JavaScript runtime environment and basic console output.
 - **Promise.all & Promise.allSettled**: Running multiple promises in parallel with all-or-nothing and settled results
 - **Interview Questions**: Common promise patterns including chaining, error handling, and `Promise.all`/`allSettled` with test case examples
 
+### Chapter 18: Async/Await
+- **Basic Async Functions**: Declaring async functions and using `await` for promise resolution
+- **Sequential Execution**: Using async/await for linear, readable asynchronous code
+- **Parallel Execution**: Running multiple async operations concurrently with `Promise.all`
+- **Error Handling**: Combining try/catch with async/await for robust error management
+- **Pyramid of Doom**: Demonstrating the problem async/await solves over nested callbacks
+- **Interview Questions**: Common async/await patterns and edge cases
+
+### Chapter 19: Playwright Basics
+- **Project Setup**: Initialized Playwright project with TypeScript configuration
+- **Example Test**: Basic Playwright test with page navigation and assertions
+- **CI Integration**: GitHub Actions workflow (`playwright.yml`) for automated test execution
+- **Configuration**: Playwright configuration with browser settings and test options
+
 ## How to Run
 
 Execute any JavaScript file using Node.js:
@@ -385,7 +413,7 @@ Or run directly in VS Code terminal.
 
 - **JavaScript (ES6+)**
 - **Node.js**
-- **Playwright** (upcoming)
+- **Playwright**
 - **VS Code**
 
 ## Resources
