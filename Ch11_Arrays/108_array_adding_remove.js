@@ -21,5 +21,5 @@ console.log(arr);
 
 
 //remove from beginning
-arr.shift();
+arr.shift(1);
 console.log(arr);

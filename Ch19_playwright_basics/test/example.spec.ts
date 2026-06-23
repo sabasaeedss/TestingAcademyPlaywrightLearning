@@ -1,14 +1,4 @@
-import { test, expect } from '@playwright/test'
-
-test("verify that the title will be TTA Cart", async ({ page }) => {
-  await page.goto("https://app.thetestingacademy.com/playwright/ttacart/");
-  await expect(page).toHaveTitle("TTACart - Login");
-});
-
-
-
-
-/* import { test, expect } from '@playwright/test';
+import { test, expect } from '@playwright/test';
 
 test('has title', async ({ page }) => {
   await page.goto('https://playwright.dev/');
@@ -26,4 +16,3 @@ test('get started link', async ({ page }) => {
   // Expects page to have a heading with the name of Installation.
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
 });
- */

@@ -170,7 +170,7 @@ TestingAcademyPlaywrightLearning/
 │   ├── 157_spread.js             # Object spread operator for copying
 │   ├── 158_obj_get_Set_method.js # Getters and setters
 │   ├── 159_obj_IQ.js             # Object.keys, values, entries, for...in iteration
-│   ├── 160_obj_real.js           # Real-world object examples
+│   ├── 160_obj_real.js           # Real-world object examples (ENV config object)
 │   └── 161_let_vs_const_obj.js   # Best practices: using const for objects
 ├── Ch15_2D_array/               # 2D Arrays & Star Patterns
 │   ├── 162_2D_Array.js           # Creating and iterating over 2D arrays
@@ -210,7 +210,9 @@ TestingAcademyPlaywrightLearning/
 │   └── 192_advance_concept.js   # Advanced async concepts
 ├── Ch19_playwright_basics/      # Playwright Testing Basics
 │   ├── .github/workflows/playwright.yml # GitHub Actions CI workflow
+│   ├── test/example.spec.ts     # Playwright test in 'test' directory
 │   ├── tests/example.spec.ts    # Example Playwright test
+│   ├── tests/codegen_tta-cart.spec.ts # Codegen-generated login test for TTACart
 │   ├── playwright.config.ts     # Playwright configuration
 │   └── package.json             # Project dependencies
 └── README.md                    # This file
@@ -395,7 +397,9 @@ Introduction to JavaScript runtime environment and basic console output.
 
 ### Chapter 19: Playwright Basics
 - **Project Setup**: Initialized Playwright project with TypeScript configuration
-- **Example Test**: Basic Playwright test with page navigation and assertions
+- **Example Tests**: Basic Playwright test with page navigation and assertions
+- **Codegen Test**: Login test generated via Playwright Codegen for TTACart app (invalid credentials validation)
+- **Test Directory**: Tests organized in both `tests/` and `test/` directories
 - **CI Integration**: GitHub Actions workflow (`playwright.yml`) for automated test execution
 - **Configuration**: Playwright configuration with browser settings and test options
 

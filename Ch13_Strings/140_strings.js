@@ -23,3 +23,6 @@ console.log(String(200));
 console.log(String(true));
 console.log(String(null));
 console.log(String([1, 2]));
+
+//string -- datatype
+//String -- interface to help you create new strings
