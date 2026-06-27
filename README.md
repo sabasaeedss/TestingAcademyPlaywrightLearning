@@ -215,6 +215,13 @@ TestingAcademyPlaywrightLearning/
 │   ├── tests/codegen_tta-cart.spec.ts # Codegen-generated login test for TTACart
 │   ├── playwright.config.ts     # Playwright configuration
 │   └── package.json             # Project dependencies
+├── Ch20_Typescript_basics/      # TypeScript Basics & ES6 Modules
+│   ├── EXPORT_IMPORT/           # ES6 Modules - Export/Import examples
+│   │   ├── 193_Export_Import.js # Named and default imports
+│   │   ├── 194_Utils.js         # Utility functions for import demo
+│   │   └── 195_Logger.js        # Logger module for import demo
+│   ├── logger.js                # Logger with default and named exports
+│   └── testutils.js             # Test utilities with exports
 └── README.md                    # This file
 ```
 
@@ -402,6 +409,14 @@ Introduction to JavaScript runtime environment and basic console output.
 - **Test Directory**: Tests organized in both `tests/` and `test/` directories
 - **CI Integration**: GitHub Actions workflow (`playwright.yml`) for automated test execution
 - **Configuration**: Playwright configuration with browser settings and test options
+
+### Chapter 20: TypeScript Basics & ES6 Modules
+- **ES6 Modules**: Using `import` and `export` statements for modular JavaScript
+- **Named Exports**: Exporting multiple values (variables, functions) from a module
+- **Default Exports**: Exporting a single primary value from a module
+- **Import Aliases**: Renaming imports using `as` keyword (`import { BASE_URL as bul_util }`)
+- **Utilities Module**: Reusable test utility functions (URL config, name formatting)
+- **Logger Module**: Centralized logging with default and named export variants
 
 ## How to Run
 
