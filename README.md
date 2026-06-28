@@ -110,7 +110,8 @@ TestingAcademyPlaywrightLearning/
 │   ├── 101_test_CodingQuest12.js# Coding question 12
 │   ├── 102_test_CodingQuest13.js# Coding question 13
 │   ├── 103_test_CodingQuest14.js# Coding question 14
-│   └── 104_test_CodingQuest15.js# Coding question 15
+│   ├── 104_test_CodingQuest15.js# Coding question 15
+│   └── 105_test_APIRetry.js    # Task: API retry simulation with do...while loop
 ├── Ch11_Arrays/                 # Arrays in JavaScript
 │   ├── 105_arrays.js            # Arrays introduction and basic creation
 │   ├── 106_arrays.js            # Array constructors and creation methods
@@ -305,6 +306,7 @@ Introduction to JavaScript runtime environment and basic console output.
   - Triangle Classifier (using conditionals with loops)
   - FizzBuzz (classic loop-based problem)
 - **Coding Questions (98-104)**: Additional loop practice exercises
+  - **API Retry Simulation (105)**: Retrying a failed API call with do...while loop
 
 ### Chapter 11: Arrays
 - **Creating Arrays**: Array literals, `new Array()`, `Array.of()`, and `Array.from()`
