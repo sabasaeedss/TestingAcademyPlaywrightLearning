@@ -231,7 +231,8 @@ TestingAcademyPlaywrightLearning/
 │   ├── 5_test_data_generator.js # Test Data Generator (for loop)
 │   ├── 6_bug_severity_classifier.js # Bug Severity Classifier (nested if-else)
 │   ├── 7_responsetime_sla.js    # Response Time SLA Analyzer (while loop)
-│   └── 8_test_env_config.js     # Test Environment Config (switch statement)
+│   ├── 8_test_env_config.js     # Test Environment Config (switch statement)
+│   └── 9_login_brute_force_Detection.js # Login Brute-Force Detection
 └── README.md                    # This file
 ```
 
@@ -439,6 +440,7 @@ Practical SDET/scenario-based JavaScript exercises covering core programming con
 - **Bug Severity Classifier**: Nested if-else logic for classifying bugs by frequency and impact
 - **Response Time SLA Analyzer**: While loop analysis of API response times with SLA breach detection
 - **Test Environment Config**: Switch statement for environment-specific configs (base URL, API key, timeout)
+- **Login Brute-Force Detection**: Simulates login with brute-force detection using do...while loop, demonstrating var, let, const, strict equality, and logical operators
 
 ## How to Run
 
