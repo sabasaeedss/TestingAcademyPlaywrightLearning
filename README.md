@@ -232,7 +232,8 @@ TestingAcademyPlaywrightLearning/
 │   ├── 6_bug_severity_classifier.js # Bug Severity Classifier (nested if-else)
 │   ├── 7_responsetime_sla.js    # Response Time SLA Analyzer (while loop)
 │   ├── 8_test_env_config.js     # Test Environment Config (switch statement)
-│   └── 9_login_brute_force_Detection.js # Login Brute-Force Detection
+│   ├── 9_login_brute_force_Detection.js # Login Brute-Force Detection
+│   └── 10_mini_Test_suite_runner.js # Mini Test Suite Runner
 └── README.md                    # This file
 ```
 
@@ -441,6 +442,7 @@ Practical SDET/scenario-based JavaScript exercises covering core programming con
 - **Response Time SLA Analyzer**: While loop analysis of API response times with SLA breach detection
 - **Test Environment Config**: Switch statement for environment-specific configs (base URL, API key, timeout)
 - **Login Brute-Force Detection**: Simulates login with brute-force detection using do...while loop, demonstrating var, let, const, strict equality, and logical operators
+- **Mini Test Suite Runner**: Comprehensive test suite runner that executes test cases and generates summary reports, combining all topics (var/let/const, if-else, switch, for/while/do-while loops, operators, typeof checks)
 
 ## How to Run
 
