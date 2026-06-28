@@ -52,6 +52,7 @@ switch (day) {
 
 for (let i = 0; i < 3; i++) { console.log(i) }
 
-for (let i = 0; i < 5; i++) { if (i === 3) break; } console.log(i);
+//for (let i = 0; i < 5; i++) { if (i === 3) break; } console.log(i);
 
 
+console.log(0 ?? 'hello');

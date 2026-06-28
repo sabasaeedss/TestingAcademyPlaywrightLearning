@@ -223,6 +223,15 @@ TestingAcademyPlaywrightLearning/
 │   │   └── 195_Logger.js        # Logger module for import demo
 │   ├── logger.js                # Logger with default and named exports
 │   └── testutils.js             # Test utilities with exports
+├── Tests attempt/               # SDET Practice Tasks & Exercises
+│   ├── 1_statuscode.js          # HTTP Status Code Categorizer
+│   ├── 2_testcase_result_counter.js # Test Case Result Counter
+│   ├── 3_test_APIRetry.js       # API Retry Simulation
+│   ├── 4_element_visibility_checker.js # Element Visibility Checker
+│   ├── 5_test_data_generator.js # Test Data Generator (for loop)
+│   ├── 6_bug_severity_classifier.js # Bug Severity Classifier (nested if-else)
+│   ├── 7_responsetime_sla.js    # Response Time SLA Analyzer (while loop)
+│   └── 8_test_env_config.js     # Test Environment Config (switch statement)
 └── README.md                    # This file
 ```
 
@@ -419,6 +428,17 @@ Introduction to JavaScript runtime environment and basic console output.
 - **Import Aliases**: Renaming imports using `as` keyword (`import { BASE_URL as bul_util }`)
 - **Utilities Module**: Reusable test utility functions (URL config, name formatting)
 - **Logger Module**: Centralized logging with default and named export variants
+
+### Tests Attempt: SDET Practice Tasks
+Practical SDET/scenario-based JavaScript exercises covering core programming concepts:
+- **HTTP Status Code Categorizer**: Categorizing HTTP status codes using switch/if-else
+- **Test Case Result Counter**: Counting pass/fail/skip results with pass rate calculation
+- **API Retry Simulation**: Retrying failed API calls with configurable max attempts
+- **Element Visibility Checker**: UI element state validation (present, displayed, enabled)
+- **Test Data Generator**: Generating test users with for loop, unique IDs, roles, and inactive flags
+- **Bug Severity Classifier**: Nested if-else logic for classifying bugs by frequency and impact
+- **Response Time SLA Analyzer**: While loop analysis of API response times with SLA breach detection
+- **Test Environment Config**: Switch statement for environment-specific configs (base URL, API key, timeout)
 
 ## How to Run
 
