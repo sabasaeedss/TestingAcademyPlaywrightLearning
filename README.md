@@ -216,11 +216,23 @@ TestingAcademyPlaywrightLearning/
 │   ├── tests/codegen_tta-cart.spec.ts # Codegen-generated login test for TTACart
 │   ├── playwright.config.ts     # Playwright configuration
 │   └── package.json             # Project dependencies
-├── Ch20_Typescript_basics/      # TypeScript Basics & ES6 Modules
-│   ├── EXPORT_IMPORT/           # ES6 Modules - Export/Import examples
+├── Ch20_Typescript_basics/      # TypeScript Basics, ES6 Modules & OOP
+│   ├── 01_EXPORT_IMPORT/        # ES6 Modules - Export/Import examples
 │   │   ├── 193_Export_Import.js # Named and default imports
 │   │   ├── 194_Utils.js         # Utility functions for import demo
-│   │   └── 195_Logger.js        # Logger module for import demo
+│   │   ├── 195_Logger.js        # Logger module for import demo
+│   │   └── test.js              # JS type/operator test examples
+│   ├── 02_Classes_and_Objects/  # OOP - Classes, Objects & TypeScript
+│   │   ├── 196_classes.js       # Class basics (constructor, methods)
+│   │   ├── 197_classes_object2.js # Class with getter, setter, computed
+│   │   ├── 198_car_class.js     # Car class with make, model, year
+│   │   ├── 199_Real_browser.js  # Browser class with methods
+│   │   ├── 200_IQ.js            # Class interview questions
+│   │   ├── 201_private_public.js # Private & public class fields
+│   │   ├── 202_static.js        # Static properties & methods
+│   │   ├── 203_person_static.js # Person class with static members
+│   │   ├── 204_Calculator.js    # Calculator class
+│   │   └── 205_Playwright2x.js  # Playwright page object class
 │   ├── logger.js                # Logger with default and named exports
 │   └── testutils.js             # Test utilities with exports
 ├── Tests attempt/               # SDET Practice Tasks & Exercises
@@ -423,13 +435,16 @@ Introduction to JavaScript runtime environment and basic console output.
 - **CI Integration**: GitHub Actions workflow (`playwright.yml`) for automated test execution
 - **Configuration**: Playwright configuration with browser settings and test options
 
-### Chapter 20: TypeScript Basics & ES6 Modules
+### Chapter 20: TypeScript Basics, ES6 Modules & OOP
 - **ES6 Modules**: Using `import` and `export` statements for modular JavaScript
 - **Named Exports**: Exporting multiple values (variables, functions) from a module
 - **Default Exports**: Exporting a single primary value from a module
 - **Import Aliases**: Renaming imports using `as` keyword (`import { BASE_URL as bul_util }`)
 - **Utilities Module**: Reusable test utility functions (URL config, name formatting)
 - **Logger Module**: Centralized logging with default and named export variants
+- **Classes & Objects**: Class syntax with constructor, methods, getters, setters
+- **OOP Concepts**: Private/public fields, static properties and methods
+- **Real-World Examples**: Browser class, Calculator, Playwright batch student management
 
 ### Tests Attempt: SDET Practice Tasks
 Practical SDET/scenario-based JavaScript exercises covering core programming concepts:
