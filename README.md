@@ -444,6 +444,10 @@ Introduction to JavaScript runtime environment and basic console output.
 - **Logger Module**: Centralized logging with default and named export variants
 - **Classes & Objects**: Class syntax with constructor, methods, getters, setters
 - **OOP Concepts**: Private/public fields, static properties and methods
+- **Encapsulation**: Private fields (`#`) with controlled access via getters/setters, authorization guards
+- **Inheritance**: Single, multi-level, and hierarchical inheritance with `extends` and `super`, Page Object Model examples
+- **Polymorphism**: Method overriding (runtime polymorphism)
+- **Interview Exercises**: Bug class, Environment config, User class, Counter (method chaining), Token (private fields with masking)
 - **Real-World Examples**: Browser class, Calculator, Playwright batch student management
 
 ### Tests Attempt: SDET Practice Tasks
