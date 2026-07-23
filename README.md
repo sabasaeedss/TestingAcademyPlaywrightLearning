@@ -1,4 +1,4 @@
-# Testing Academy Playwright Learning
+﻿# Testing Academy Playwright Learning
 
 This repository contains my learning journey for JavaScript fundamentals and Playwright testing. It includes practical examples, exercises, and reference materials organized by chapters.
 
@@ -246,6 +246,21 @@ TestingAcademyPlaywrightLearning/
 │   ├── 8_test_env_config.js     # Test Environment Config (switch statement)
 │   ├── 9_login_brute_force_Detection.js # Login Brute-Force Detection
 │   └── 10_mini_Test_suite_runner.js # Mini Test Suite Runner
+├── Ch26_Typescript/            # TypeScript types, function annotations & return types
+│   ├── 220_TS.js                # Plain JS intro (no types)
+│   ├── 221_ts_helloworld.ts     # First TS file with typed variables/functions
+│   ├── 222_TS_Part1.ts          # Console & typed function sayHello
+│   ├── 223_TS_Part2.ts          # Primitive types, arrays, any, unknown
+│   ├── 224_TS_PArt2.ts          # unknown narrowing, function annotations
+│   ├── 225_part3.ts             # Return types (void, string, never)
+│   ├── 226_IQ.ts                # Interview-style typed functions
+│   └── 227_IQ.ts                # Array types with filter
+├── Ch27_typescript_interface/   # TypeScript Interfaces
+│   ├── 228_interface.ts         # Basic TestCase interface
+│   ├── 229_IF_Part2.ts          # Optional interface properties
+│   ├── 230_IFPart3.ts           # Readonly interface properties
+│   └── 2301_IF_Readonly2.ts     # Readonly interface & array
+├── tsconfig.json                # TypeScript compiler configuration
 └── README.md                    # This file
 ```
 
@@ -449,6 +464,21 @@ Introduction to JavaScript runtime environment and basic console output.
 - **Polymorphism**: Method overriding (runtime polymorphism)
 - **Interview Exercises**: Bug class, Environment config, User class, Counter (method chaining), Token (private fields with masking)
 - **Real-World Examples**: Browser class, Calculator, Playwright batch student management
+
+### Chapter 26: TypeScript Types & Functions
+- **Plain JS to TS**: Starting from untyped JS (220_TS.js) and migrating to typed TypeScript
+- **Type Annotations**: Primitive types (string, number, boolean, null, undefined), arrays, any, unknown
+- **Function Annotations**: Typed parameters and return types for functions and arrow functions
+- **Return Types**: void, string, never -- sayHello, greet, throwError, infiniteLoop
+- **unknown Narrowing**: Type-safe narrowing of unknown type before usage
+- **Interview-Style Functions**: buildEndPoint, isSuccessCode, logTestStep with full type annotations
+- **Array Filtering**: Typed getFailedCode function filtering HTTP status codes >= 400
+
+### Chapter 27: TypeScript Interfaces
+- **Basic Interface**: Defining a TestCase interface with typed fields (id, name, status, duration)
+- **Optional Properties**: APIResponse interface with optional headers? and responseTime?
+- **Readonly Modifier**: Preventing modification of properties after creation (statuscode)
+- **Readonly Arrays**: Creating interfaces with readonly arrays for immutable data structures
 
 ### Tests Attempt: SDET Practice Tasks
 Practical SDET/scenario-based JavaScript exercises covering core programming concepts:
